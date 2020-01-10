@@ -43,36 +43,38 @@ Mysql
 LINE Messaging API
 LINE Login
 ```
-## EC2サーバー(WEB側)  
-### Apacheをインストール
+## 環境構築
+### EC2サーバー(WEB側)  
+#### Apacheをインストール
 ```   
 sudo yum update
 
 sudo yum -y install httpd    
 ```  
-### PHP7.2をインストール  
+#### PHP7.2をインストール  
 ```
 sudo amazon-linux-extras install php7.2
 
 sudo yum install php php-mbstring
 ```
-### Apacheを起動
+#### Apacheを起動
 ```
 sudo service httpd start
 ```
-### mariadbをインストール  
+#### mariadbをインストール  
 ```
 sudo yum install -y mariadb-server
 
 sudo yum install php php-mbstring
 ```
-### mariadbを起動
+#### mariadbを起動
 ```
 sudo systemctl start mariadb
 ```
-### mariadbを有効化
+#### mariadbを有効化
 ```
 sudo systemctl enable mariadb
+
 sudo systemctl is-enabled mariadb
 ```
 ## EC2サーバー(モバイル側)  
@@ -83,18 +85,18 @@ sudo yum update
 sudo yum -y install httpd    
 ```  
 
-### PHP7.2をインストール  
+#### PHP7.2をインストール  
 ```
 sudo amazon-linux-extras install php7.2
 
 sudo yum install php php-mbstring
 
 ```
-### Apacheを起動
+#### Apacheを起動
 ```
 sudo service httpd start
 ```
-### Mysql(コマンドのみ)をインストール
+#### Mysql(コマンドのみ)をインストール
 ```
 sudo yum install mysql-devel
 ```

@@ -90,7 +90,6 @@ sudo yum -y install httpd
 sudo amazon-linux-extras install php7.2
 
 sudo yum install php php-mbstring
-
 ```
 #### Apacheを起動
 ```
@@ -101,8 +100,9 @@ sudo service httpd start
 sudo yum install mysql-devel
 ```
 ## 使用方法
- - 
-
+```
+ブラウザで自身で設定したIPアドレス、ドメインでサイトを開くことで利用可能になります。
+```
 ## メンバー
 - 中村賢哉
 - 宮田隼人

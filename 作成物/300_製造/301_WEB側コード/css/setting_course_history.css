@@ -1,0 +1,134 @@
+html{
+    min-width: 1500px;
+
+}
+
+#header-5{
+    background: rgba(0,102,187,0.1) !important;
+}
+
+#header-5 a{
+    color: black !important;
+}
+
+#sub-heder4{
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.setting-right{
+    float: left;
+    width: 72%;
+    margin-left: 1.5%;
+}
+
+.tablecategory{
+    margin-top: 20px;
+    width: 90.3%;
+    margin-left: 65px
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: solid 1px #cccccc;
+    padding: 5px;
+    text-align: left;
+}
+
+td:nth-child(1){
+    width: 20%;
+}
+td:nth-child(2){
+    width: 15%;
+}
+td:nth-child(3){
+    width: 15%;
+}
+td:nth-child(4){
+    width: 15%;
+}
+td:nth-child(5){
+    width: 20%;
+}
+td:nth-child(6){
+    width: 15%;
+}
+
+
+
+/*td:nth-child(1){*/
+/*    width: 6%;*/
+/*}*/
+/*td:nth-child(2){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(3){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(4){*/
+/*    width: 15%;*/
+/*}*/
+/*td:nth-child(5){*/
+/*    width: 4%;*/
+/*}*/
+/*td:nth-child(6){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(7){*/
+/*    width: 17%;*/
+/*}*/
+
+table select {
+    width: 100%;
+    border: 1px solid #999;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    /*padding: 5px 2px;*/
+}
+
+
+/* 水色の部分の設定 */
+.box{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 40em;
+    background: rgba(0,102,187,0.1);
+    border-radius: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* 内側の表設定 */
+.tablebody{
+    width: 96.3%;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: white;
+}
+
+button{
+    color: white;
+    position: relative;
+    /*bottom: 5%;*/
+    background: orange;
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 2px 3px #555555;
+    top: 20px;
+    left: 86.5%;
+}
+
+
+

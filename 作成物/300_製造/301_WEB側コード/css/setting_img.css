@@ -1,0 +1,146 @@
+html{
+    min-width: 1500px;
+    height:100%;
+}
+
+#header-5{
+    background: rgba(0,102,187,0.1) !important;
+}
+
+#header-5 a{
+    color: black !important;
+}
+
+#sub-heder3{
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.setting-img{
+    float: left;
+    width: 75%;
+    height: 85%;
+}
+
+.setting-img1{
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.setting-img select{
+    margin-top: 40px;
+    width: 10%;
+    border: 1px solid #999;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    /*padding: 5px 2px;*/
+}
+
+.setting-box{
+    margin-top: 20px;
+    height: 74%;
+    width: 100%;
+    border: solid 1px #cccccc;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+button{
+    color: white;
+    position: relative;
+    /*bottom: 5%;*/
+    background: orange;
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 2px 3px #555555;
+    left: 88.5%;
+    top: 3%;
+}
+
+.flex1{
+    padding: 2.5% 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+.flex1 > *{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+}
+/*!*左画面*!*/
+/*.sentaku{*/
+/*    color: #000000;*/
+/*    font-size: 24px;*/
+/*    text-align: center;*/
+/*    background: #E5F0F8;*/
+/*    width: 400px;*/
+/*    height: 700px;*/
+/*    white-space: pre;*/
+/*}*/
+
+/*!*左画面で選択されている部分*!*/
+/*#box{*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    padding: 3% 5%;*/
+/*}*/
+
+/*!*右画面*!*/
+/*.rightzentai{*/
+/*    margin-top: -45.3%;*/
+/*    margin-left: 1%;*/
+/*}*/
+
+/*.l1{*/
+/*    font-size: 24px;*/
+/*    background: white;*/
+/*    width: 30em;*/
+/*    margin-left: 27%;*/
+/*    white-space: pre;*/
+/*}*/
+
+/*#country{*/
+/*    font-family: Roboto;*/
+/*    font-size: 100%;*/
+/*    text-align: left;*/
+/*    margin-top: -1%;*/
+/*    border-radius: 15%;*/
+/*    width: 35%;*/
+/*    height: 2.5REM;*/
+/*}*/
+
+/*.list{*/
+/*    margin-left: 31.5%;*/
+/*    margin-top: 1%;*/
+/*    width: 65%;*/
+/*}*/
+
+/*td{*/
+/*    padding-bottom: 45%;*/
+/*}*/
+
+/*#add{*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    margin-left: 90.5%;*/
+/*    margin-top: 3%;*/
+/*    border-radius : 10px;*/
+/*    cursor        : pointer;     !* カーソル   *!*/
+/*    padding       : 15px 21px;   !* 余白       *!*/
+/*    background: #FCC324;     !* 背景色     *!*/
+/*    color         : #ffffff;     !* 文字色     *!*/
+/*    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);*/
+/*    line-height   : 0.5em;         !* 1行の高さ  *!*/
+/*}*/
+
+

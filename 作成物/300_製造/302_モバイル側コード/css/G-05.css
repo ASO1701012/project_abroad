@@ -1,0 +1,123 @@
+
+/*G-07.cssの流用*/
+.mybtn {
+    padding: 14px 24px;
+    border: 0 none;
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-apply {
+    background: var(--myorenge);
+    color: white;
+}
+
+.btn-apply:hover, .btn-apply:focus,
+.btn-apply:active, .btn-apply:active:focus, .btn-apply:active:hover, .btn-apply:active.focus,
+.btn-apply.active, .btn-apply.active:focus, .btn-apply.active:hover, .btn-apply.active.focus,
+.open > .dropdown-toggle.btn-apply,
+.open > .dropdown-toggle.btn-apply:hover,
+.open > .dropdown-toggle.btn-apply:focus,
+.open > .dropdown-toggle.btn-apply.focus,
+.btn-apply.disabled:hover, .btn-apply[disabled]:hover, fieldset[disabled] .btn-apply:hover,
+.btn-apply.disabled:focus, .btn-apply[disabled]:focus, fieldset[disabled] .btn-apply:focus,
+.btn-apply.disabled.focus, .btn-apply[disabled].focus, fieldset[disabled] .btn-apply.focus {
+    background: var(--myorenge);
+    color: white;
+}
+
+.btn-apply.outline {
+    color: #fff;
+    background-color: #F68847;
+    border-color: #F68847;
+}
+.form-group{
+    margin-bottom: 2%;
+}
+
+/*大区分*/
+.setting_profile{
+    /*border: #1b1e21 1px solid;*/
+    height: 18%;
+    margin-top: 2%;
+    padding: 3% 7%;
+    display: flex;
+}
+.setting_profile_txt{
+    /*border: #1b1e21 1px solid;*/
+    height: fit-content;
+}
+.setting_profile_txt_name{
+    font-size: 250%;
+    font-weight: bold;
+}
+.setting_profile_txt_school{
+    font-size: 130%;
+}
+.setting_password{
+    /*border: #1b1e21 1px solid;*/
+    height: 24%;
+    padding: 0 7%;
+    margin-top: 5%;
+    position: relative;
+}
+
+.setting_abroad{
+    /*border: #1b1e21 1px solid;*/
+    height: 27%;
+    padding: 0 7%;
+    width: fit-content;
+
+}
+.setting_insta{
+    /*border: #1b1e21 1px solid;*/
+    height: 8%;
+    width: fit-content;
+    padding: 0 8%;
+    margin-top: 5%;
+    display: flex;
+}
+.setting_insta_txt{
+    /*border: #1b1e21 1px solid;*/
+    width: fit-content;
+    height: fit-content;
+    margin-right: 2%;
+}
+.setting_insta_img{
+    /*border: #1b1e21 1px solid;*/
+    width: 15%;
+    height: fit-content;
+}
+#img_camera{
+    width: 80%;
+    height: auto;
+}
+.setting_btn{
+    /*border: #1b1e21 1px solid;*/
+    margin: 0 0;
+    height: 9%
+}
+
+h6{
+    color: var(--mygray);
+    font-size: 50%;
+}
+h5{
+    color: var(--myblack);
+    font-weight: bold;
+}
+
+
+/*後から足した*/
+.pass_btn{
+    position: absolute;
+    right: 7%;
+    width: 50%;
+}
+.abroad_btn{
+    position: absolute;
+    right: 7%;
+    top: 77%;
+    width: 50%;
+}

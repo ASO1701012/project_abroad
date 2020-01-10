@@ -1,0 +1,93 @@
+body{
+    min-width: 1500px;
+    background-color: #0066BB;
+    color: white;
+    overflow-x: hidden;
+}
+
+.registration{
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.registration1{
+    text-align: center;
+}
+
+/*dl{*/
+/*    height: 100%;*/
+/*}*/
+
+h1{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+dt{
+    float: left;
+    clear: left;
+    width: 150px;
+    margin-top: 28px;
+}
+dd{
+    float: left;
+    width: 70%;
+    margin-top: 20px;
+}
+
+.last{
+    margin-left: 150px;
+}
+
+.registration2 dt{
+    font-size: 20px;
+}
+
+dd > input{
+    font-size: 20px;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 10px;
+    border:none;
+}
+
+.registration2 select{
+    width: 100%;
+    border:0;
+    padding:5px;
+    font-size:20px;
+    border:solid 1px #ccc;
+}
+dl:after{
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.c1{
+text-align: center;
+}
+
+.button {
+    margin: 50px auto 0 auto;
+    color: black;
+    position: relative;
+    /*bottom: 5%;*/
+    background: white;
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    display: inline;
+}
+
+.c2{
+    position: relative;
+    left: 80%;
+    top: 200px;
+}

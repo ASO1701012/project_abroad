@@ -1,0 +1,360 @@
+/*G-07-01*/
+
+.lesson_already{
+    /*border: #0c5460 1px solid;*/
+    margin: 1% 0;
+    height: 18%
+}
+/*吹き出し*/
+.lesson_already_msg{
+    position: relative;
+    display: inline-block;
+    margin: 2% 7%;
+    padding: 1% 5%;
+    min-width: 120px;
+    max-width: 100%;
+    color: var(--myred);
+    font-size: small;
+    background: #FFF;
+    border: solid 1px var(--myred);
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.lesson_already_msg:before {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 17.5%;
+    margin-left: -10px;
+    border: 10px solid transparent;
+    border-top: 10px solid #FFF;
+    z-index: 2;
+}
+
+.lesson_already_msg:after {
+    content: "";
+    position: absolute;
+    bottom: -19px;
+    left: 19%;
+    margin-left: -14px;
+    border: 10px solid transparent;
+    border-top: 10px solid var(--myred);
+    z-index: 1;
+}
+
+.lesson_already_msg p {
+    margin: 0;
+    padding: 0;
+}
+
+/*申込済み講座一覧*/
+.lesson_already_txt{
+    border: 1px solid var(--myred);
+    border-radius: 15px;
+    height: 55%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+
+    background-color: var(--myred);
+    color: #FFFFFF;
+    font-size: 100%;
+    line-height: 30%;
+
+    margin: 1% 7%;
+    padding: 4% 3.5%;
+
+    /*すクロ〜〜〜ル〜〜*/
+    overflow:auto;
+}
+
+/*講座一覧*/
+.lesson_filter{
+    margin: 1% 0;
+    height: 5%;
+    /*border: #0c5460 1px solid;*/
+}
+.lesson_filter_select{
+    padding: 1% 7%;
+}
+/* firuta-*/
+.btn-select,
+.btn-select.disabled, .btn-select:disabled {
+    color: var(--myorenge);
+    background-color:#fff;
+    border-color: var(--myorenge);
+}
+
+/* focusされた時の枠線の色 */
+.btn-select:focus, .btn-select.focus,
+.btn-select:not(:disabled):not(.disabled):active:focus, .btn-select:not(:disabled):not(.disabled).active:focus,
+.show > .btn-select.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(247, 136, 71, 0.3);
+}
+
+/* hover時（マウスカーソルを重ねた時）の色（通常より濃いor暗めの色を指定） */
+.btn-select:hover {
+    color: #fff;
+    background-color: var(--myorenge);
+    border-color: var(--myorenge);
+}
+
+/* active時の色（hover時と同等かさらに濃いor暗めの色を指定） */
+.btn-select:not(:disabled):not(.disabled):active, .btn-select:not(:disabled):not(.disabled).active,
+.show > .btn-select.dropdown-toggle {
+    color: #fff;
+    background-color: #F68847;
+    border-color: #F68847;
+}
+
+/*講座一覧*/
+.lesson_list{
+    /*border: #0c5460 1px solid;*/
+
+    height: 49%;
+    /*すクロ〜〜〜ル〜〜*/
+    overflow:auto;
+}
+
+/*申し込み_未*/
+.lesson_list_no{
+    background: #FFFFFF;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    line-height: 30%;
+
+    position: relative;
+
+    margin: 2.5% 7%;
+    padding: 3% 5%;
+}
+/*申し込み_済*/
+.lesson_list_yes{
+    background: var(--myorenge);
+    border: 1px solid var(--myorenge);
+    color: #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    line-height: 30%;
+
+    position: relative;
+
+    margin: 2.5% 7%;
+    padding: 3% 5%;
+}
+/*開催中*/
+.lesson_list_now{
+    border: 1px solid var(--myorenge);
+    border-radius: 15px;
+
+    background-color: #FFFFFF;
+    color: var(--myred);
+
+    position:absolute;
+    right: 8%;
+    top: 30%;
+
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: -2%;
+}
+.lesson_list_sub{
+    width: 100%;
+    display: flex;
+    padding-bottom: 2%;
+}
+.lesson_list_sub_explain{
+}
+.lesson_list_sub_date{
+    position:absolute;
+    width: 100px;
+    right: 8%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*G-07-02*/
+
+/*名前と簡易詳細領域*/
+.lesson_detail_head{
+    height: 13%;
+    margin-top: 1%;
+
+    padding-top: 4%;
+    padding-left: 7%;
+
+}
+
+.lesson_detail_head_name{
+    font-weight: bold;
+    color: var(--myblack);
+    font-size: 50vm;
+}
+.lesson_detail_head_sub{
+    color: var(--mygray);
+    margin-top: -2%;
+}
+
+
+
+/*日時場所詳細領域*/
+.lesson_detail{
+    background-color: white;
+    border: 1px solid var(--mypailgray);
+    height: 48%;
+    width: 90%;
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 8%;
+    /*すクロ〜〜〜ル〜〜*/
+    overflow:auto;
+
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+/*ラベル*/
+.lesson_detail_label{
+    font-size: smaller;
+    color: var(--mygray);
+}
+
+/*日時場所詳細*/
+.lesson_detail_text{
+    font-size: larger;
+    color: var(--myblack);
+    padding-bottom: 2%;
+}
+
+/*キャンセル理由*/
+.body{
+    position:relative;
+}
+.lesson_cancel_txt{
+    border: 1px solid var(--mypailgray);
+    margin-left: 5%;
+    width: 90%;
+
+    position:absolute;
+    top:60%;
+}
+
+
+
+
+
+/*申し込みボタン*/
+.lesson_btn{
+    margin: 3% 0;
+    height: 9%
+}
+.mybtn {
+    padding: 14px 24px;
+    border: 0 none;
+    width: 90%;
+    border-radius: 14px;
+    margin: 3% 5%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*applyボタン*/
+.btn-apply {
+    background: var(--myorenge);
+    color: white;
+}
+
+.btn-apply:hover, .btn-apply:focus,
+.btn-apply:active, .btn-apply:active:focus, .btn-apply:active:hover, .btn-apply:active.focus,
+.btn-apply.active, .btn-apply.active:focus, .btn-apply.active:hover, .btn-apply.active.focus,
+.open > .dropdown-toggle.btn-apply,
+.open > .dropdown-toggle.btn-apply:hover,
+.open > .dropdown-toggle.btn-apply:focus,
+.open > .dropdown-toggle.btn-apply.focus,
+.btn-apply.disabled:hover, .btn-apply[disabled]:hover, fieldset[disabled] .btn-apply:hover,
+.btn-apply.disabled:focus, .btn-apply[disabled]:focus, fieldset[disabled] .btn-apply:focus,
+.btn-apply.disabled.focus, .btn-apply[disabled].focus, fieldset[disabled] .btn-apply.focus {
+    background: var(--myorenge);
+    color: white;
+}
+
+.btn-apply.outline {
+    color: #fff;
+    background-color: #F68847;
+    border-color: #F68847;
+}
+
+
+/*cancelボタン*/
+.btn-cancel {
+    background: white;
+    color: var(--myorenge);
+    border: 1px solid #F68847;
+
+
+}
+
+.btn-cancel:hover, .btn-cancel:focus,
+.btn-cancel:active, .btn-cancel:active:focus, .btn-cancel:active:hover, .btn-cancel:active.focus,
+.btn-cancel.active, .btn-cancel.active:focus, .btn-cancel.active:hover, .btn-cancel.active.focus,
+.open > .dropdown-toggle.btn-cancel,
+.open > .dropdown-toggle.btn-cancel:hover,
+.open > .dropdown-toggle.btn-cancel:focus,
+.open > .dropdown-toggle.btn-cancel.focus,
+.btn-cancel.disabled:hover, .btn-cancel[disabled]:hover, fieldset[disabled] .btn-cancel:hover,
+.btn-cancel.disabled:focus, .btn-cancel[disabled]:focus, fieldset[disabled] .btn-cancel:focus,
+.btn-cancel.disabled.focus, .btn-cancel[disabled].focus, fieldset[disabled] .btn-cancel.focus {
+    background: white;
+    color: var(--myorenge);
+}
+
+.btn-cancel.outline {
+    color: #fff;
+    background-color: #F68847;
+    border-color: var(--myorenge);
+}
+
+/*submitボタンデザイン*/
+.submit_button{
+    display       : inline-block;
+    font-size     : 14pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    background    : var(--myred);     /* 背景色     */
+    color         : white;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid var(--myred);    /* 枠の指定 */
+}
+.submit_button:hover {
+    color         : #ffffff;     /* 背景色     */
+    background    : #000000;     /* 文字色     */
+}
+
+.submit_list{
+    display       : inline-block;
+    font-size     : 14pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    background    : white;     /* 背景色     */
+    color         : var(--);     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid var(--myred);    /* 枠の指定 */
+}
+.submit_list:hover {
+    color         : #ffffff;     /* 背景色     */
+    background    : #000000;     /* 文字色     */
+}
+

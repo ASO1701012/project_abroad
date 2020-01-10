@@ -1,0 +1,220 @@
+html{
+    min-width: 1500px;
+    height:100%;
+}
+
+body{
+    width: 100%;
+}
+#header-5{
+    background: rgba(0,102,187,0.1) !important;
+}
+
+#header-5 a{
+    color: black !important;
+}
+
+#sub-heder1{
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.top-right{
+    float: left;
+    width: 75%;
+}
+
+.top-right1{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.setting-display{
+    margin-top: 50px;
+}
+
+.setting-display dt {
+    color: #cccccc;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.setting-display dd{
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.setting-input{
+    margin-top: 40px;
+}
+
+.setting-input dl{
+    width: 100%;
+}
+
+.setting-input dt{
+    width: 30%;
+    float: left;
+    clear: left;
+    font-size: 20px;
+}
+
+.setting-input dd{
+    width: 70%;
+    float: left;
+}
+
+.setting-input input{
+    margin:0 0 30px;
+    border-radius:15px;
+    padding:10px;
+    /*font-size:1.1em;*/
+    /*font-family:Arial, sans-serif;*/
+    border:solid 1px #ccc;
+    font-size: 1.2em;
+    /*width:400px;*/
+}
+
+.setting-input input:nth-child(1){
+    float: left;
+    width: 100%;
+}
+.setting-input input:nth-child(2){
+    width: 100%;
+    clear: left;
+}
+
+
+/*.setting-input dt{*/
+/*    float: left;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.setting-input dd{*/
+/*    float: left;*/
+/*}*/
+
+/*.setting-input input{*/
+
+
+/*}*/
+
+button{
+    float: none;
+    position: relative;
+    left: 81%;
+    top: 10px;
+    background: #FCC324;
+    color: white;
+    width: 8em;
+    height: 3em;
+    border-radius: 25px;
+    font-size: 20px;
+    border: none;
+    box-shadow: 1px 2px 3px #555555;
+}
+
+
+/*左画面で選択されている部分*/
+/*#box{*/
+/*    background-color: white;*/
+/*    border-radius: 10px;*/
+/*    padding: 3% 5%;*/
+/*}*/
+
+/*!*右画面*!*/
+/*.l1{*/
+/*    color: #BDBDBD;*/
+/*    font-size: 24px;*/
+/*    background: white;*/
+/*    width: 42em;*/
+
+/*    white-space: pre;*/
+/*}*/
+
+/*#e-mail{*/
+/*    font-size: 155%;*/
+/*    color: black;*/
+/*    margin-left: 34%;*/
+/*}*/
+
+/*.h{*/
+/*    font-family: Roboto;*/
+/*    font-size: 25px;*/
+/*    text-align: left;*/
+/*    margin-left: 3%;*/
+/*    border-radius: 15px;*/
+/*    padding: 1px 10px;*/
+/*    box-shadow: 0px 3px 3px;*/
+/*    width: 22em;*/
+/*}*/
+
+/*.l2{*/
+/*    font-size: 25px;*/
+/*    color: black;*/
+/*    margin-left: 34%;*/
+/*}*/
+
+/*#country{*/
+/*    font-family: Roboto;*/
+/*    font-size: 155%;*/
+/*    text-align: left;*/
+/*    margin-left:8.2%;*/
+/*    margin-top: 2%;*/
+/*    margin-bottom: 3%;*/
+/*    border-radius: 15%;*/
+/*    box-shadow: 0px 3px 3px;*/
+/*    width: 40%;*/
+/*    height: 3REM;*/
+/*}*/
+
+/*.l{*/
+/*    font-size: 25px;*/
+/*    color: black;*/
+/*    margin-left: 34%;*/
+/*}*/
+
+/*#pass{*/
+/*    font-family: Roboto;*/
+/*    font-size: 25px;*/
+/*    text-align: left;*/
+/*    margin-left: 49.5%;*/
+/*    border-radius: 15px;*/
+/*    padding: 1px 10px;*/
+/*    box-shadow: 0px 3px 3px;*/
+/*    width: 22em;*/
+/*    margin-top: -4%;*/
+/*}*/
+
+/*#cpass{*/
+/*    font-family: Roboto;*/
+/*    font-size: 25px;*/
+/*    text-align: left;*/
+/*    margin-top: 0%;*/
+/*    margin-left: 49.5%;*/
+/*    border-radius: 15px;*/
+/*    padding: 1px 10px;*/
+/*    box-shadow: 0px 3px 3px;*/
+/*    width: 22em;*/
+/*}*/
+
+/*#updata{*/
+/*    font-size: 20px;*/
+/*    text-align: center;*/
+/*    margin-left: 84%;*/
+/*    margin-top: 0.5%;*/
+/*    border-radius : 10px;*/
+/*    cursor        : pointer;     !* カーソル   *!*/
+/*    padding       : 15px 21px;   !* 余白       *!*/
+/*    background    : #FCC324;     !* 背景色     *!*/
+/*    color         : #ffffff;     !* 文字色     *!*/
+/*    line-height   : 0.5em;         !* 1行の高さ  *!*/
+/*    box-shadow    : 0px 4px 4px   !* 影の設定 *!*/
+/*}*/
+
+/*.rightzentai{*/
+/*    float: left;*/
+/*    width: 70%;*/
+/*}*/
+

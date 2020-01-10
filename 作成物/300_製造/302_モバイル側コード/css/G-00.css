@@ -1,0 +1,121 @@
+/*共通項目のCSSです*/
+
+
+:root{
+    --myorenge:#FF5E00;
+    --myblack:#333333;
+    --mygray:#4F4F4F;
+    --mypailgray:#BDBDBD;
+    --myred:#F60F29;
+    --myblue:#2D9CDB;
+    --myyellow:#F9A602;
+    --myback:#F2F2F2;
+}
+
+.body{
+    width: 100%;
+    height: 100vh;
+    /*border: 1px solid #000000;*/
+    /*width: 320pt;
+    height: 568pt;*/
+    background-color: var(--myback);
+
+    color: var(--myblack);
+
+    position: relative;
+}
+.header{
+    border: 1px solid white;
+    background-color: white;
+
+    width: 100%;
+    height: 13%;
+}
+.headers{
+    /*border: 1px solid #000000;*/
+    text-align: center;
+    margin-top: 7%;
+}
+.title{
+    /*border: 1px solid #000000;*/
+    font-size: 180%;
+    display:inline;
+}
+.img_btn_hd{
+    /*border: 1px solid #000000;*/
+    width: 8%;
+    height: auto;
+}
+#chat{
+    position: absolute;
+    left: 76%;
+
+}
+#setting{
+    position: absolute;
+    left: 87%;
+}
+
+
+.footer{
+    border: 1px solid white;
+    background-color: white;
+
+    width: 100%;
+    height: 13%;
+
+    position: absolute;
+    bottom: 0;
+}
+.footer_btn{
+    /*border: 1px solid #000000;*/
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+.footer_txt{
+    /*position: absolute;*/
+    /*border: 1px solid #000000;*/
+    top: 40%;
+    font-size: small;
+    margin-top: -5%;
+}
+.img_btn_ft{
+    /*border: 1px solid #000000;*/
+    /*position: absolute;*/
+    width: 25%;
+    height: auto;
+    margin-top: 20%;
+    margin-bottom: 2%;
+}
+#lesson{
+    position: absolute;
+    left: 0;
+}
+#home{
+    position: absolute;
+    left: 32%;
+}
+#learning{
+    position: absolute;
+    left: 64%;
+}
+
+/*
+ホバーは消す
+文字はうちらの黒〜〜〜
+*/
+a {
+    text-decoration: none;
+}
+a:link { color: var(--myblack);}
+a:visited { color: var(--myblack); }
+a:hover {
+    color: var(--myblack);
+    text-decoration: none;
+}
+a:active {
+    color: var(--myblack);
+}　/*クリックしている時のリンクの色*/
+
+

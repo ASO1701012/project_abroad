@@ -1,0 +1,30 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+.sentaku1{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sentaku li{
+    margin-top: 60px;
+}
+.sentaku1 li a{
+    text-decoration:none;
+}
+
+.sentaku{
+    float: left;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    background: #E5F0F8;
+    width: 25%;
+    height: 86%;
+}

@@ -1,0 +1,192 @@
+body{
+    width: 100%;
+}
+
+#header-2{
+    background: rgba(0,102,187,0.1) !important;
+}
+
+#header-2 a{
+    color: black !important;
+}
+
+.course-input{
+    width: 35%;
+    float: left;
+}
+
+.course-input-content{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sub-header{
+    display: none;
+}
+
+.course-input-content input {
+    width: 100%;
+    border:0;
+    padding:10px;
+    font-size:1.1em;
+    font-family:Arial, sans-serif;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:400px;
+}
+.course-input-content select{
+    width: 100%;
+    border:0;
+    padding:10px;
+    font-size:1.1em;
+    font-family:Arial, sans-serif;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:130px;
+}
+
+.course-input-content textarea{
+    width: 100%;
+    border:0;
+    padding:10px;
+    font-size:1.1em;
+    font-family:Arial, sans-serif;
+    border:solid 1px #ccc;
+    margin:0 0 20px;
+    width:400px;
+    height: 200px;
+}
+
+.course-input-title{
+    margin-top: 100px;
+}
+
+
+.course-list{
+    width: 65%;
+    float: right;
+}
+
+.tablecategory{
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: solid 1px #cccccc;
+    padding: 5px;
+    text-align: left;
+}
+
+td:nth-child(1){
+    width: 25%;
+}
+td:nth-child(2){
+    width: 15%;
+}
+td:nth-child(3){
+    width: 15%;
+}
+td:nth-child(4){
+    width: 15%;
+}
+td:nth-child(5){
+    width: 15%;
+}
+td:nth-child(6){
+    width: 15%;
+}
+
+/*td:nth-child(1){*/
+/*    width: 6%;*/
+/*}*/
+/*td:nth-child(2){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(3){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(4){*/
+/*    width: 15%;*/
+/*}*/
+/*td:nth-child(5){*/
+/*    width: 4%;*/
+/*}*/
+/*td:nth-child(6){*/
+/*    width: 17%;*/
+/*}*/
+/*td:nth-child(7){*/
+/*    width: 17%;*/
+/*}*/
+
+table select {
+    width: 100%;
+    border: 1px solid #999;
+    -webkit-appearance: none;
+    border-radius: 2px;
+    /*padding: 5px 2px;*/
+}
+
+
+/* 水色の部分の設定 */
+.box{
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 45em;
+    background: rgba(0,102,187,0.1);
+    border-radius: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* 内側の表設定 */
+.tablebody{
+    width: 96.3%;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: white;
+}
+
+.button-create{
+    position: relative;
+    left: 55%;
+    /*bottom: 5%;*/
+    background: #FCC324;
+    color: white;
+    width: 10em;
+    height: 3em;
+    border-radius: 25px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 1px 2px 3px #555555;
+}
+
+.submit_button{
+    display       : inline-block;
+    border-radius : 3%;          /* 角丸       */
+    font-size     : 14pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 0 4px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : #000000;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    border        : 2px solid #ffffff;    /* 枠の指定 */
+}
+.submit_button:hover {
+    color         : #ffffff;     /* 背景色     */
+    background    : #000000;     /* 文字色     */
+}

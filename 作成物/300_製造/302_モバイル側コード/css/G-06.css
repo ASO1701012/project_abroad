@@ -1,0 +1,88 @@
+.body{
+    background-color: var(--myyellow);
+}
+.interview_msgs{
+    height: 44%;
+    /*すクロ〜〜〜ル〜〜*/
+    overflow:auto;
+    margin: auto;
+    width: fit-content;
+}
+.interview_msg{
+    background-color: white;
+    color: var(--myblack);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 3% 3%;
+    line-height: 120%;
+    width: 80%;
+}
+.from{
+    margin: 2% 2% 2% 15%;
+}
+.to{
+    margin: 2% 2% 2% 5%;
+}
+.interview_selects{
+    height: 28%;
+
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    margin: 2% 5%;
+    padding: 3% 3%;
+}
+.interview_select{
+    height: 20%;
+    width: 43%;
+    margin: 1% auto;
+}
+.interview_selects_detail{
+    width: 92%;
+    margin: 1% auto;
+}
+.interview_selects_detail_txt{
+    border: 1px solid var(--mypailgray);
+    width: 100%;
+    height: 20%;
+}
+.interview_selects_btn{
+    text-align: right;
+    margin-top: -1%;
+    margin-right: 5%;
+}
+
+/*ボタン*/
+/*面談申込ボタン*/
+.btn-interview {
+    background: var(--myorenge);
+    color: white;
+    border: 1px solid #F68847;
+    font-size: 80%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    padding: 2% 3%;
+}
+
+.btn-interview:hover, .btn-interview:focus,
+.btn-interview:active, .btn-interview:active:focus, .btn-interview:active:hover, .btn-interview:active.focus,
+.btn-interview.active, .btn-interview.active:focus, .btn-interview.active:hover, .btn-interview.active.focus,
+.open > .dropdown-toggle.btn-interview,
+.open > .dropdown-toggle.btn-interview:hover,
+.open > .dropdown-toggle.btn-interview:focus,
+.open > .dropdown-toggle.btn-interview.focus,
+.btn-interview.disabled:hover, .btn-interview[disabled]:hover, fieldset[disabled] .btn-interview:hover,
+.btn-interview.disabled:focus, .btn-interview[disabled]:focus, fieldset[disabled] .btn-interview:focus,
+.btn-interview.disabled.focus, .btn-interview[disabled].focus, fieldset[disabled] .btn-interview.focus {
+    background: var(--myorenge);
+    color: white;
+}
+
+.btn-interview.outline {
+    color: #fff;
+    background-color: #F68847;
+    border-color: var(--myblack);
+}
+
+
